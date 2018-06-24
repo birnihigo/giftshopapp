@@ -10,15 +10,15 @@ export class WoocommerceProvider {
 
   constructor() {
     this.Woocommerce = WC({
-      url: "http://52.66.171.54",
-      consumerKey: "ck_2ec7be12c0191a8a222cb85e89eea6291e0746e1",
-      consumerSecret: "cs_a300ce55d107c61910208ae1d37f4c4978561b87"
+      url: 'http://127.0.0.1:8080/wordpress',
+      consumerKey: 'ck_16d9d46830d56c61ce5f73368fddcbc2d32d97f1',
+      consumerSecret: 'cs_84080c00de15acfcf9076729c5b7837e2ae41a39'
     });
 
     this.WoocommerceV2 = WC({
-      url: "http://52.66.171.54",
-      consumerKey: "ck_2ec7be12c0191a8a222cb85e89eea6291e0746e1",
-      consumerSecret: "cs_a300ce55d107c61910208ae1d37f4c4978561b87",
+      url: 'http://127.0.0.1:8080/wordpress',
+      consumerKey: 'ck_16d9d46830d56c61ce5f73368fddcbc2d32d97f1',
+      consumerSecret: 'cs_84080c00de15acfcf9076729c5b7837e2ae41a39',
       wpAPI: true,
       version: "wc/v2"
     });
